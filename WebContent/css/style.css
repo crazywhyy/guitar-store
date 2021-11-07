@@ -1,0 +1,411 @@
+.addToCart h2,
+.addToCart h1,
+.addToCart h3,
+.addToCart h4,
+.addToCart h5,
+.addToCart h6,
+.addToCart p,
+.addToCart span,
+.addToCart a,
+.addToCart strong {
+  color: black; }
+
+.more-info h2,
+.more-info h1,
+.more-info h3,
+.more-info h4,
+.more-info h5,
+.more-info h6,
+.more-info p,
+.more-info span,
+.more-info a,
+.more-info strong {
+  color: black; }
+
+
+header .header-bg .f-space {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+header .header-bg .logo .logo-title p {
+  color: black; }
+
+header .header-bg .nav-bar ul {
+  display: inline-flex; }
+  header .header-bg .nav-bar ul li {
+    margin-left: 30px; }
+    header .header-bg .nav-bar ul li a {
+      font-family: "Shadows Into Light", cursive !important;
+      color: white;
+      font-size: 1.03em;
+      line-height: 1.4167em;
+      text-transform: uppercase;
+      letter-spacing: 0.0909em;
+      border-bottom: solid 1px #ffffff;
+      cursor: pointer;
+      font-family: "Montserrat", sans-serif;
+      border-color: transparent; }
+
+/* header .header-bg .center-bg {
+  text-align: center;
+  position: relative;
+  height: 440px; }
+  header .header-bg .center-bg .img-bg {
+    position: absolute;
+    z-index: 19; }
+    header .header-bg .center-bg .img-bg img {
+      width: 85%; }
+  header .header-bg .center-bg .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 33%;
+    top: 35%;
+    z-index: 20; }
+    header .header-bg .center-bg .text h1 {
+      margin-right: 10px;
+      z-index: 7;
+      font-size: 8em;
+      line-height: 23px;
+      font-weight: 700;
+      color: white;
+      font-family: Montserrat;
+      transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-origin: 50% 50% 0px;
+      font-family: "Shadows Into Light", cursive; }
+  header .header-bg .center-bg .img-bg-small {
+    position: absolute;
+    z-index: 25;
+    left: 50%;
+    top: 27%; }
+  header .header-bg .center-bg .img-bg-small2 {
+    position: absolute;
+    z-index: 25;
+    left: 31%;
+    top: 36%; }
+  header .header-bg .center-bg .book-img {
+    position: absolute;
+    z-index: 20;
+    left: 36%;
+    top: 8%; }
+    header .header-bg .center-bg .book-img img {
+      width: 90%; }
+  header .header-bg .center-bg .text-p {
+    position: absolute;
+    z-index: 25;
+    color: white;
+    top: 60%;
+    left: 38%; }
+    header .header-bg .center-bg .text-p p {
+      font-family: "Shadows Into Light", cursive;
+      letter-spacing: 0.5px; } */
+
+main .book-bestsellers {
+  background-image: url(../img/bg-services.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px; }
+  main .book-bestsellers .container-bg {
+    text-align: center; }
+    main .book-bestsellers .container-bg .title {
+      margin-bottom: 50px; }
+      main .book-bestsellers .container-bg .title h1 {
+        font-size: 6rem; }
+  main .book-bestsellers .book .row .item {
+    position: relative;
+    transition: 0.5s ease;
+    margin-bottom: 50px; }
+    main .book-bestsellers .book .row .item img {
+      width: 100%;
+      cursor: pointer; }
+    main .book-bestsellers .book .row .item .intro {
+      left: 15px;
+      right: 15px;
+      bottom: 0;
+      background-color: #ffde3c77;
+      position: absolute;
+      z-index: 30;
+      overflow: hidden;
+      top: 100%;
+      transition: 0.5s;
+      cursor: pointer; }
+      main .book-bestsellers .book .row .item .intro .cart {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid chocolate;
+        padding: 10px 20px;
+        transition: 0.5s; }
+        main .book-bestsellers .book .row .item .intro .cart:hover {
+          background: beige; }
+        main .book-bestsellers .book .row .item .intro .cart:hover a {
+          color: chocolate; }
+        main .book-bestsellers .book .row .item .intro .cart a {
+          font-size: 2rem;
+          color: white; }
+      main .book-bestsellers .book .row .item .intro .info {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid beige;
+        padding: 10px 26px;
+        transition: 0.5s; }
+        main .book-bestsellers .book .row .item .intro .info:hover {
+          background: beige; }
+        main .book-bestsellers .book .row .item .intro .info:hover p {
+          color: chocolate; }
+        main .book-bestsellers .book .row .item .intro .info p {
+          font-size: 2rem;
+          color: chocolate;
+          text-decoration: none; }
+
+main .more-info {
+  position: fixed;
+  z-index: 40;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%; }
+  main .more-info .info {
+    background-color: chocolate;
+    padding: 50px;
+    margin: 50px 100px;
+    border-radius: 30px; }
+  main .more-info .img {
+    position: relative; }
+    main .more-info .img img {
+      width: 100%;
+      position: absolute; }
+  main .more-info .close {
+    position: absolute;
+    right: 10%;
+    top: 10%; }
+  main .more-info td {
+    padding: 0px 5px; }
+
+main .cart-pop-up {
+  position: fixed;
+  z-index: 39;
+  transition: 0.5s;
+  top: 40%;
+  right: -8%; }
+  main .cart-pop-up .cover {
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px; }
+    main .cart-pop-up .cover p {
+      color: #fff; }
+    main .cart-pop-up .cover a {
+      border-radius: 20px; }
+      main .cart-pop-up .cover a i {
+        font-size: 3em;
+        color: white; }
+      main .cart-pop-up .cover a span {
+        margin-left: 10px;
+        color: white; }
+
+main .addToCart .container-addtocart .table-item .info {
+  background-color: beige;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding: 50px; }
+  main .addToCart .container-addtocart .table-item .info .img-item {
+    width: 40%; }
+    main .addToCart .container-addtocart .table-item .info .img-item img {
+      width: 80%;
+      height: 80%; }
+  main .addToCart .container-addtocart .table-item .info .name {
+    margin-right: 30px; }
+    main .addToCart .container-addtocart .table-item .info .name h2 {
+      margin: 0; }
+  main .addToCart .container-addtocart .table-item .info .cash-item {
+    margin-right: 30px; }
+  main .addToCart .container-addtocart .table-item .info .edit {
+    margin-right: 30px; }
+    main .addToCart .container-addtocart .table-item .info .edit .edit-item span {
+      position: relative;
+      white-space: nowrap;
+      vertical-align: middle;
+      display: table-cell; }
+      main .addToCart .container-addtocart .table-item .info .edit .edit-item span button {
+        text-align: center;
+        border-color: #c8c8c8;
+        color: #999;
+        line-height: 20px;
+        padding: 3px 9px;
+        margin: 0;
+        border-radius: 3px 0 0 3px;
+        border-right: 0;
+        border: 1px solid #dfdfdf;
+        background: #fff;
+        width: 30px;
+        outline: none;
+        transition: 0.2s; }
+        main .addToCart .container-addtocart .table-item .info .edit .edit-item span button:hover {
+          background: #eee5e5; }
+      main .addToCart .container-addtocart .table-item .info .edit .edit-item span input {
+        width: 30px;
+        position: relative;
+        z-index: 2;
+        float: left;
+        margin: 0;
+        padding: 3px 9px;
+        border-radius: 3px 0 0 3px;
+        border-right: 0;
+        border: 1px solid #dfdfdf;
+        background: #fff;
+        width: 30px;
+        outline: none; }
+    main .addToCart .container-addtocart .table-item .info .edit .edit-item {
+      margin-bottom: 10px; }
+    main .addToCart .container-addtocart .table-item .info .edit .btn-delete {
+      width: 100%; }
+
+main .addToCart .container-addtocart .table-item .cash {
+  background-color: beige;
+  border-radius: 20px;
+  padding: 40px;
+  height: max-content; }
+  main .addToCart .container-addtocart .table-item .cash .frist-cash {
+    width: 200px; }
+    main .addToCart .container-addtocart .table-item .cash .frist-cash p {
+      margin-right: 20px; }
+  main .addToCart .container-addtocart .table-item .cash .final-cash {
+    width: 200px; }
+    main .addToCart .container-addtocart .table-item .cash .final-cash p {
+      margin-right: 20px; }
+    main .addToCart .container-addtocart .table-item .cash .final-cash h4 {
+      color: red; }
+      main .addToCart .container-addtocart .table-item .cash .final-cash h4 span {
+        color: red; }
+  main .addToCart .container-addtocart .table-item .cash .pay {
+    float: right; }
+
+main .info-pay {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: -100%;
+  bottom: 0;
+  background: #8080808c;
+  transition: 0.4s;
+  z-index: 40; }
+  main .info-pay .pop-up-panel-body {
+    background-color: #f7f7f7;
+    padding: 50px;
+    border-radius: 20px;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    main .info-pay .pop-up-panel-body .form {
+      display: flex;
+      margin-bottom: 30px; }
+      main .info-pay .pop-up-panel-body .form label {
+        width: 30%;
+        text-align: center; }
+      main .info-pay .pop-up-panel-body .form .input {
+        width: 70%; }
+        main .info-pay .pop-up-panel-body .form .input input {
+          outline: none;
+          border-color: #3c763d;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          line-height: 1.42857;
+          color: #555; }
+        main .info-pay .pop-up-panel-body .form .input textarea {
+          outline: none;
+          border-color: #3c763d;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          line-height: 1.42857;
+          color: #555; }
+    main .info-pay .pop-up-panel-body .done button {
+      width: 20%;
+      float: right; }
+    main .info-pay .pop-up-panel-body .close {
+      position: absolute;
+      right: -7%;
+      top: -6%; }
+
+.admin .title {
+  position: absolute;
+  z-index: 50;
+  left: 45%; }
+
+.admin .info-pay {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0%;
+  bottom: 0;
+  background: #8080808c;
+  transition: 0.4s;
+  z-index: 40; }
+  .admin .info-pay .pop-up-panel-body {
+    background-color: #f7f7f7;
+    padding: 50px;
+    border-radius: 20px;
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .admin .info-pay .pop-up-panel-body .form {
+      display: flex;
+      margin-bottom: 30px; }
+      .admin .info-pay .pop-up-panel-body .form label {
+        width: 30%;
+        text-align: center; }
+      .admin .info-pay .pop-up-panel-body .form .input {
+        width: 70%; }
+        .admin .info-pay .pop-up-panel-body .form .input input {
+          outline: none;
+          border-color: #3c763d;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          line-height: 1.42857;
+          color: #555; }
+        .admin .info-pay .pop-up-panel-body .form .input textarea {
+          outline: none;
+          border-color: #3c763d;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          line-height: 1.42857;
+          color: #555; }
+    .admin .info-pay .pop-up-panel-body .done button {
+      width: 20%;
+      float: right; }
+    .admin .info-pay .pop-up-panel-body .close {
+      position: absolute;
+      right: -7%;
+      top: -6%; }
+
+footer .footer {
+  background-color: #041721;
+  text-align: center;
+  padding: 100px 0px; }
+  footer .footer .title {
+    color: white; }
+    footer .footer .title h3 {
+      font-size: 0.6875em;
+      text-align: center; }
+  footer .footer .content {
+    color: white; }
+  footer .footer .social {
+    display: flex;
+    position: relative; }
+    footer .footer .social ul {
+      left: 48%;
+      display: flex;
+      position: absolute; }
+      footer .footer .social ul li {
+        margin-right: 10px;
+        color: white; }

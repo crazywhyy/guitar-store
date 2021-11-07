@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+.container-bg {
+   max-width: 1000px;
+  margin: auto; 
+}
+.container-addtocart {
+  max-width: 1100px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+}
+.f-flex {
+  display: flex;
+}
+
+.contact-header a {
+  color: #0ce682;
+  outline: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  transition: all 0.3s ease 0s;
+  font-size: 11px;
+  letter-spacing: 0.4px;
+}
+
+header a:hover {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+.cart a:hover {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.item:hover .intro {
+  top: 0 !important;
+}
